@@ -35,11 +35,20 @@ mkdir ~/k6-custom && cd ~/k6-custom
 
 Build `k6` with the custom extension:
 
+## Build in local reposotory
 ```bash
 xk6 build v1.7.1 \
   --with github.com/dkantikorn/k6-x-counter=$(pwd)/k6-x-counter \
   --output ./k6-custom
 ```
+
+## Build in local reposotory
+```bash
+xk6 build v1.7.1 \
+  --with github.com/dkantikorn/k6-x-counter \
+  --output ./k6-custom
+```
+
 
 ### 📌 Notes
 
