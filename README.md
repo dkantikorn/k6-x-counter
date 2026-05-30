@@ -1,4 +1,3 @@
-1528"}
 # k6 Custom Build with Counter Extension
 
 This project demonstrates how to build a custom `k6` binary with a custom extension using `xk6`.
